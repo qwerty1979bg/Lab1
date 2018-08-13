@@ -6,7 +6,7 @@ install_nginx()
 {
 echo "NGINX is not installed, installing" 
 
-$ cat <<EOF > /etc/yum.repos.d/nginx.repo
+cat <<EOF > /etc/yum.repos.d/nginx.repo
 [nginx]
 name=nginx repo
 baseurl=http://nginx.org/packages/centos/7/x86_64/
