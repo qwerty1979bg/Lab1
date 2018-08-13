@@ -12,7 +12,8 @@ Vagrant.configure("2") do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
-  config.vm.box = "hashicorp/precise64"
+#  config.vm.box = "hashicorp/precise64"
+  config.vm.box = "centos/7"
 	
   config.vm.hostname = "web01"
 
