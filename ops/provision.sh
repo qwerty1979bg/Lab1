@@ -19,3 +19,6 @@ yum install -y nginx && echo NGINX successfully installed
 
 which nginx && echo NGINX is installed
 which nginx || install_nginx
+
+#start NGINX - do this properly later
+service nginx start && echo NGINX service started successfully
